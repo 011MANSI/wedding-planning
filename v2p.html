@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="v2p.css">
+    <link rel="icon" type="image/x-icon" href="C:\Users\DeLL\Desktop\project pics\logoind.png">
+
+</head>
+<body>
+    <div id="id2">
+        <nav>
+
+            <ul class="horizontal-list text-center nav-menu">
+                <li>
+                    <a href="rough.html">Home</a>
+                </li>
+                
+                <li>
+                    <a href="venues.html"> Venues</a>
+                </li>
+                <li>
+                    <a href="real-weddings.html">Real Weddings</a>
+                </li>
+                <li>
+                    <a href="e-invites.html">E-Invites</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Price</a>
+                </li>
+              
+            </ul>
+            
+        </nav>
+
+    </div>
+</div>
+<div id="content">
+    <div id="images">
+    <img src="C:\Users\DeLL\Desktop\project pics\venue2.webp"id="pi1">
+    <img src="C:\Users\DeLL\Desktop\project pics\1624434195_DSC01118.webp"id="pi1">
+    <img src="C:\Users\DeLL\Desktop\project pics\1624434199_DSC01122.webp"id="pi1">
+    <img src="C:\Users\DeLL\Desktop\project pics\1624433518_IMG_8853.webp"id="pi1">
+    <img src="C:\Users\DeLL\Desktop\project pics\1624433409_productionpoint_20210122_151618.webp" id="pi1">
+    <img src="C:\Users\DeLL\Desktop\project pics\1622712678_WR3.webp"id="pi1">
+    <img src="C:\Users\DeLL\Desktop\project pics\1622712680_WR9.webp"id="pi1">
+    <img src="C:\Users\DeLL\Desktop\project pics\1624434198_DSC01109.webp"id="pi1">
+    <img src="C:\Users\DeLL\Desktop\project pics\1624434199_DSC01096.webp" id="pi1">
+    <img src="C:\Users\DeLL\Desktop\project pics\1624433409_productionpoint_20210122_151627.webp" id="pi1">
+    <img src="C:\Users\DeLL\Desktop\project pics\th (9).jpeg" id="pi1">
+    <img src="C:\Users\DeLL\Desktop\project pics\IMG_4473.jpg" id="pi1">
+  </div>
+  </div>  
+  <script>
+    var indexValue = 0;
+    function slideShow(){
+      setTimeout(slideShow, 1000);
+      var x;
+      const img = document.querySelectorAll("img");
+      for(x = 0; x < img.length; x++){
+        img[x].style.display = "none";
+      }
+      indexValue++;
+      if(indexValue > img.length){indexValue = 1}
+      img[indexValue -1].style.display = "block";
+    }
+    slideShow();
+  </script>
+  </div>
+</div>
+
+</body>
+</html>

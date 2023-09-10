@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Day</title>
+    <link rel="stylesheet" type="text/css" href="v4p.css">
+    <link rel="icon" type="image/x-icon" href="C:\Users\DeLL\Desktop\project pics\logoind.png">
+    <script language="javascript" type="text/javascript"
+src="anim.js">
+</script>
+
+
+</head>
+<body>
+    <div id="id2">
+        <nav>
+
+            <ul class="horizontal-list text-center nav-menu">
+                <li>
+                    <a href="rough.html">Home</a>
+                </li>
+                
+                <li>
+                    <a href="venues.html"> Venues</a>
+                </li>
+                <li>
+                    <a href="real-weddings.html">Real Weddings</a>
+                </li>
+                <li>
+                    <a href="e-invites.html">E-Invites</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Price</a>
+                </li>
+              
+            </ul>
+            
+        </nav>
+
+    </div>
+</div>
+<div id="content">
+    <div id="images">
+
+
+    <img class="slide" src="C:\Users\DeLL\Desktop\project pics\1587549711_beach_wedding.stage - Copy.webp" id="pi1">
+    <img class="slide" src="C:\Users\DeLL\Desktop\project pics\1638792381_beach_side_stage_with_german_tent.webp" id="pi1">
+    <img class="slide" src="C:\Users\DeLL\Desktop\project pics\1638792381_beach_side_stage_with_german_tent2.webp"id="pi1">
+    <img class="slide" src= "C:\Users\DeLL\Desktop\project pics\1638792381_PHOTO_2021_11_21_18_42_39.webp"id="pi1">
+    <img class="slide" src="C:\Users\DeLL\Desktop\project pics\1614253524_3F9A1331.webp" id="pi1">
+    <img class="slide" src="C:\Users\DeLL\Desktop\project pics\1638792381_mehendi_ceremony.webp" id="pi1">
+    <img class="slide" src= "C:\Users\DeLL\Desktop\project pics\2223517_17050818520052845876.jpg"id="pi1">
+    <img class="slide" src= "C:\Users\DeLL\Desktop\project pics\1609761442_Wedding_Design.webp"id="pi1">
+    <img class="slide" src="C:\Users\DeLL\Desktop\project pics\1609909338_IMG_20210106_WA0011.webp" id="pi1">
+    <img class="slide" src="C:\Users\DeLL\Desktop\project pics\1638792381_mehendi_ceremony_3.webp" id="pi1">
+    <img class="slide" src="C:\Users\DeLL\Desktop\project pics\1587549711_WhatsApp_Image_2018_07_16_at_11.34.53_PM.webp" id="pi1">
+    <img class="slide" src="C:\Users\DeLL\Desktop\project pics\1587549711_beach_wedding.stage.webp" id="pi1">
+</div>
+          </div>
+          <script>
+            var indexValue = 0;
+            function slideShow(){
+              setTimeout(slideShow, 1000);
+              var x;
+              const img = document.querySelectorAll("img");
+              for(x = 0; x < img.length; x++){
+                img[x].style.display = "none";
+              }
+              indexValue++;
+              if(indexValue > img.length){indexValue = 1}
+              img[indexValue -1].style.display = "block";
+            }
+            slideShow();
+          </script>
+          </div>
+        </div>
+</body>
+</html>

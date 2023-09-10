@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Day</title>
+    <link rel="stylesheet" type="text/css" href="contactus.css">
+    <link rel="icon" type="image/x-icon" href="C:\Users\DeLL\Desktop\project pics\logoind.png">
+
+</head>
+<body>
+    <div id="id2">
+        <nav>
+           
+    <ul class="horizontal-list text-center nav-menu">
+                <li>
+                    <a href="rough.html">Home</a>
+                </li>
+                <li>
+                    <a href="venues.html"> Venues</a>
+                </li>
+                <li>
+                    <a href="real-weddings.html">Real Weddings</a>
+                </li>
+                <li>
+                    <a href="e-invites.html">E-Invites</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Price</a>
+                </li>
+              
+            </ul>
+            
+        </nav>
+
+    </div>
+   <table  id="uh" border="2" width="90%" height="70%" style="margin: 70px auto; border:1px solid;text-align:center">
+       <tr id="r1">
+           <td>venue</td>
+           <td>Vendor</td>
+           <td>Price</td>
+       </tr>
+       <tr id="r2">
+           <td rowspan="5">Hotel Royal Orchid</td>
+           <td>space</td>
+           <td>Rs.450000 </td>
+       </tr>
+       <tr id="r2">
+           <td>Catering</td>
+           <td>Rs.200000 min. </td>
+       </tr>
+       <tr id="r2">
+            <td>Decorators</td>       
+            <td>Rs.300000 min.</td>
+        </tr>
+        <tr id="r2">
+            <td>Rooms</td>
+            <td>Rs.25000 per room</td>
+        </tr>
+        <tr id="r2">
+            <td>Sound and Light</td>
+            <td>Rs.300000</td>
+        </tr>
+        <tr id="r2">
+            <td rowspan="5">The Wildernes Retreat</td>
+            <td>space</td>
+            <td>Rs.300000</td>
+        </tr>
+        <tr id="r2">
+            <td>Catering</td>
+            <td>Rs.150000 min. </td>
+        </tr>
+        <tr id="r2">
+             <td>Decorators</td>       
+             <td>Rs.250000 min.</td>
+         </tr>
+         <tr id="r2">
+             <td>Rooms</td>
+             <td>Rs.3000 per room</td>
+         </tr>
+         <tr id="r2">
+             <td>Sound and Light</td>
+             <td>Rs.400000</td>
+         </tr>
+         <tr id="r2">
+            <td rowspan="5">Blue Bay Beach Resort</td>
+            <td>space</td>
+            <td>Rs.500000</td>
+        </tr>
+        <tr id="r2">
+            <td>Catering</td>
+            <td>Rs.650000 min. </td>
+        </tr>
+        <tr id="r2">
+             <td>Decorators</td>       
+             <td>Rs.550000 min.</td>
+         </tr>
+         <tr id="r2">
+             <td>Rooms</td>
+             <td>Rs.1500 per room</td>
+         </tr>
+         <tr id="r2">
+             <td>Sound and Light</td>
+             <td>Rs.200000</td>
+         </tr>
+         <tr id="r2">
+             <td rowspan="2">Extra Facilities</td>
+             <td>Poolside Area</td>
+             <td>Rs.45000</td>
+         </tr>
+         <tr id="r2">
+             <td>Bridal Makeup</td>
+             <td>Rs.30000</td>
+         </tr>
+       
+   </table>
+   <p id="r2">You can use calculator to calculate total amount...</p>
+   <script>
+    //function that display value
+    function dis(val)
+    {
+        document.getElementById("result").value+=val
+    }
+      
+    //function that evaluates the digit and return result
+    function solve()
+    {
+        let x = document.getElementById("result").value
+        let y = eval(x)
+        document.getElementById("result").value = y
+    }
+      
+    //function that clear the display
+    function clr()
+    {
+        document.getElementById("result").value = ""
+    }
+ </script>
+ <!-- for styling -->
+ <style>
+ 
+    input[type="button"]
+    {
+    background-color: #e72e77;
+    
+    color: white;
+    border: solid white 2px;
+    width:100%;
+    font-size: 30px;
+    }
+
+    input[type="text"]
+    {
+    background-color:#e72e77;
+    border: solid white 0.5px;
+    width:100%;
+    font-size: 20px;
+    height:100%;
+    }
+ </style>
+
+<!-- create table -->
+<body>
+ <table border="1" width="50%" height="100%" style="margin: 70px auto; border:1px solid;text-align:center">
+    <tr>
+       <td colspan="3"><input type="text" id="result"/></td>
+       <!-- clr() function will call clr to clear all value -->
+       <td><input type="button" value="c" onclick="clr()"/> </td>
+    </tr>
+    <tr>
+       <!-- create button and assign value to each button -->
+       <!-- dis("1") will call function dis to display value -->
+       <td><input type="button" value="1" onclick="dis('1')"/> </td>
+       <td><input type="button" value="2" onclick="dis('2')"/> </td>
+       <td><input type="button" value="3" onclick="dis('3')"/> </td>
+       <td><input type="button" value="/" onclick="dis('/')"/> </td>
+    </tr>
+    <tr>
+       <td><input type="button" value="4" onclick="dis('4')"/> </td>
+       <td><input type="button" value="5" onclick="dis('5')"/> </td>
+       <td><input type="button" value="6" onclick="dis('6')"/> </td>
+       <td><input type="button" value="-" onclick="dis('-')"/> </td>
+    </tr>
+    <tr>
+       <td><input type="button" value="7" onclick="dis('7')"/> </td>
+       <td><input type="button" value="8" onclick="dis('8')"/> </td>
+       <td><input type="button" value="9" onclick="dis('9')"/> </td>
+       <td><input type="button" value="+" onclick="dis('+')"/> </td>
+    </tr>
+    <tr>
+       <td><input type="button" value="." onclick="dis('.')"/> </td>
+       <td><input type="button" value="0" onclick="dis('0')"/> </td>
+       <!-- solve function call function solve to evaluate value -->
+       <td><input type="button" value="=" onclick="solve()"/> </td>
+       <td><input type="button" value="*" onclick="dis('*')"/> </td>
+    </tr>
+ </table>
+
+   <div id="l1">
+    <img src="C:\Users\DeLL\Desktop\project pics\logoind.png"id="l1i">
+      </div>
+
+</body>
+</html>

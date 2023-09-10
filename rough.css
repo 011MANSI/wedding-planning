@@ -1,0 +1,306 @@
+
+#container{
+    
+    padding-top: 1.2rem;
+    width:100vw;
+    flex-wrap: wrap;
+}
+#id1{
+    height:100px;
+    display:inline-block;
+    background-color: #b4245d;
+
+    font-size: 40px;
+    color:white;
+    width:100vw;
+    font-weight: bold;
+    text-align: center;
+    flex-wrap:wrap;
+    
+
+}
+#id2{
+    background-color: #e72e77;
+    flex-wrap:wrap;
+}
+#id3{
+    background-color: #e72e77;
+    
+    display:inline-block;
+    width:100vw;
+    flex-wrap:wrap;
+}
+#my-name {
+        font-size: 3rem;
+        letter-spacing: 0.1rem;
+        color: black;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        text-align:center;
+        align-content: center;
+
+}
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+
+}
+
+
+.horizontal-list li a {
+    color: black;
+    text-decoration: none;
+    font-size:30px;
+}
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+    font-size:50px;
+}
+
+#text{
+    font-size:20px;
+    color:white;
+    text-align:center;
+}
+#cities{
+    
+    font-style:italic;
+    font-size:40px;
+    display:inline-block;
+    margin:0px;
+
+}
+#list1{
+    margin-right:50px;
+}
+#id6{
+    font-size:30px;
+    display:inline-block;
+    
+    font-style: italic;
+font-family: sans-serif;
+}
+#image1{
+    margin-right:0px;
+    margin-left:80vw;
+    margin-top:5px;
+    margin-bottom:60px;
+    display:inline-block;
+    height:80px;
+    width:220px;
+}
+#vendors{
+font-size:40px;
+font-style:italic;
+margin-left: 20px;
+
+}
+#id12{
+    color:#e72e77;
+    
+    
+
+}
+#p1{
+    text-align:center;
+    justify-content: center;
+}
+.image{
+    
+    display: inline-block;
+    width:100vw;
+    height:100px;
+    background-color: lightcoral;
+    flex-wrap:wrap;
+}
+#image{
+    width:100vw;
+    
+}
+#date{
+    font-size:40px;
+}
+#id{
+    font-style:italic;
+    font-size: 40px;
+    color:white;
+    font-family: cursive;    
+}
+#logo{
+    display: inline-block;
+    width:100vw;
+    height:400px;
+    background-color: black;
+    flex-wrap:wrap;
+
+}
+#logo2{
+
+    width:100vw;
+    height:400px;
+}
+#form1{
+    display:inline-block;
+    background-color: #e72e77;
+    
+    
+
+    width:100vw;
+}
+#form16{
+    background-color:lightpink;
+    
+}
+#f1{
+    font-size:20px;
+    color:white;
+    font-style: italic;
+    display: inline-block;
+    
+    
+}
+#f2{
+    color:white;
+    font-size:20px;
+    font-style: italic;
+    display: inline-block;
+}
+#f3{
+
+    color:white;
+    font-size:20px;
+    font-style: italic;
+    display:inline-block;
+}
+#f4{
+    display:inline-block;
+    
+
+}
+#child1{
+background-color:pink;
+display:inline-block;
+
+}
+#child2{
+background-color:lightsalmon;
+display:inline-block;
+}
+#child3{
+background-color: magenta;
+display: inline-block;
+}
+#child1{
+    background-color:pink;
+    display:inline-block;
+    height:20vw;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+
+}
+#id9{
+    color:white;
+    
+}
+#img2{
+}
+#id50{
+
+    background-color:  #b4245d;
+
+    
+    height:20vw;
+    width:40vw;
+}
+#id51{
+    background-color:  #b4245d;
+
+    
+    width:40vw;
+    height:20vw;
+}
+#p2{
+    font-size:19px;
+    color:white;
+    
+}
+#p3{
+    font-size:21px;
+    color:white;
+    word-spacing: 3px;
+}
+#ri{
+    height:20vw;
+    width:20vw;
+}
+#img3{
+    height:20vw;
+    width:20vw;
+}
+#f4i{
+    font-size: 20px;
+    color:white;
+    background-color:  #b4245d;
+    
+}
+#id39{
+    color:#e72e77;
+    font-style:italic;
+    font-size:40px;
+    font-family: cursive;
+}
+#f5i{
+    font-size: 25px;
+    color:white;
+    background-color:  #b4245d;
+    margin-left:20px;
+    
+}
+.social-icons li {
+    border-radius: 50%;
+}
+
+.social-icons li:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a img {
+    width: 1rem;
+    padding: 8px;
+}
+#li{
+    display:inline-block;
+}
+#l2{
+    display: inline-block;
+
+
+}
+#l2 li{
+    margin-left: 20px;
+    font-size:20px;
+    margin-right:20px;
+}
